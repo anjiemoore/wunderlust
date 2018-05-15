@@ -30,6 +30,7 @@ function pickCity(){
 
 
 
+<<<<<<< HEAD
 $("body").on("click" , ".wunderlust-btn" , pickCity);
 
 // Weather API function
@@ -91,3 +92,6 @@ function pickWeather() {
         })
     };
 
+=======
+$("body1").on("click" , ".wunderlust-btn" , pickCity);
+>>>>>>> 04f1698148011a7f10e87fb7e26b9c06d09b426b
