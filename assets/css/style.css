@@ -31,6 +31,36 @@ body1{
     position: relative;
 }
 
+h1 {
+  font-family: 'Junge', serif;
+}
+
+h2 {
+  font-family: 'Petit Formal Script', cursive;
+  text-shadow: 2px 2px 4px #000000;
+
+}
+
+h3 {
+  font-family: 'Junge', serif;
+}
+
+p {
+  font-family: 'Junge', serif;
+}
+
+.wind {
+  font-family: 'Junge', serif;
+}
+
+.humidity {
+  font-family: 'Junge', serif;
+}
+
+.temp {
+  font-family: 'Junge', serif;
+}
+
 .btn-results{
     height: 100px;
     width: 100px;
@@ -197,9 +227,5 @@ a:hover{
   letter-spacing: 7px;
   margin: 60px;
 }
-
-
- 
- 
 
 

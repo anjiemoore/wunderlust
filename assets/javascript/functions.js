@@ -133,12 +133,12 @@ $.ajax({
             //After printing itemsArr[rand] this array element is removed to prevent it from appearing again
             var venue = itemsArr[rand]["venue"];
             var name = $("<h3 class='4sq-name'>").text(venue.name);
-            var category = $("<span class='4sq-cat'>").text("Category: " + venue.categories[0].name);
+            var category = $("<p class='4sq-cat'>").text("Category: " + venue.categories[0].name + " ");
             console.log(category);
-            var address = $("<span class='4sq-add'>").text(venue.location.address + ", " + city);
+            var address = $("<p class='4sq-add'>").text(venue.location.address + ", " + city);
             console.log(address);
             // console.log(category);
-            var container = $("<div class='venue-card'>").append(name,category,address);
+            var container = $("<div class='venue-card col sm12 m4'>").append(name,category,address);
             $(".content-"+query).append(container);
             itemsArr.splice(rand,1);
         }
